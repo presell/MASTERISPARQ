@@ -887,6 +887,19 @@
           "cssFilePath": "plasmic/masteri_sparq/PlasmicDisposableCollection34.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "UYdM1YtE_Yr",
+          "name": "Blog12",
+          "type": "managed",
+          "projectId": "wJD4VsJTYW6gZPn3AUEzqs",
+          "renderModuleFilePath": "plasmic/masteri_sparq/PlasmicBlog12.tsx",
+          "importSpec": {
+            "modulePath": "../pages/blog.tsx"
+          },
+          "cssFilePath": "plasmic/masteri_sparq/PlasmicBlog12.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1603,6 +1616,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.225",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.225/dist/plasmic.schema.json"
+  "cliVersion": "0.1.226",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.226/dist/plasmic.schema.json"
 }
