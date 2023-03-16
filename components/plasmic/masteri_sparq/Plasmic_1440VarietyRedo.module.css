@@ -419,6 +419,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-top: 10px;
   min-width: 0;
   padding: 13px 125px 12px 145px;
 }
