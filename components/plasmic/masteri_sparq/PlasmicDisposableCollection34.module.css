@@ -25,6 +25,7 @@
   }
 }
 ._1440Px {
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -33,7 +34,6 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  display: none;
   padding: 0px;
 }
 @media (min-width: 320px) {
@@ -43,7 +43,7 @@
 }
 @media (min-width: 768px) {
   ._1440Px {
-    display: none;
+    display: flex;
   }
 }
 .head {
@@ -516,7 +516,7 @@
 }
 @media (min-width: 414px) {
   ._414PxRedo {
-    display: none;
+    display: flex;
   }
 }
 @media (min-width: 768px) {
@@ -644,6 +644,7 @@
   }
 }
 .freeBox {
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -653,12 +654,11 @@
   max-width: 100%;
   min-width: 0;
   flex-shrink: 0;
-  display: none;
   padding: 0px 0px 8px;
 }
 @media (min-width: 320px) {
   .freeBox {
-    display: none;
+    display: flex;
   }
 }
 @media (min-width: 414px) {
@@ -781,4 +781,5 @@
 .safeLeads:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+  display: none;
 }
