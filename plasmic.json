@@ -900,6 +900,32 @@
           "cssFilePath": "plasmic/masteri_sparq/PlasmicBlog12.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "nnLFz64Uddy",
+          "name": "DisposableCollection35",
+          "type": "managed",
+          "projectId": "wJD4VsJTYW6gZPn3AUEzqs",
+          "renderModuleFilePath": "plasmic/masteri_sparq/PlasmicDisposableCollection35.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-1.tsx"
+          },
+          "cssFilePath": "plasmic/masteri_sparq/PlasmicDisposableCollection35.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5eJR7QtKF2i",
+          "name": "DisposableCollection36",
+          "type": "managed",
+          "projectId": "wJD4VsJTYW6gZPn3AUEzqs",
+          "renderModuleFilePath": "plasmic/masteri_sparq/PlasmicDisposableCollection36.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-rm2.tsx"
+          },
+          "cssFilePath": "plasmic/masteri_sparq/PlasmicDisposableCollection36.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1616,6 +1642,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.231",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.231/dist/plasmic.schema.json"
+  "cliVersion": "0.1.234",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.234/dist/plasmic.schema.json"
 }
