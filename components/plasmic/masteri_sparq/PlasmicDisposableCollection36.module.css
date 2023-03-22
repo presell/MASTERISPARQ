@@ -43,7 +43,7 @@
 }
 @media (min-width: 768px) {
   ._1440Px {
-    display: none;
+    display: flex;
   }
 }
 .head {
@@ -516,7 +516,7 @@
 }
 @media (min-width: 414px) {
   ._414PxRedo {
-    display: none;
+    display: flex;
   }
 }
 @media (min-width: 768px) {
@@ -658,7 +658,7 @@
 }
 @media (min-width: 320px) {
   .freeBox {
-    display: none;
+    display: flex;
   }
 }
 @media (min-width: 414px) {
@@ -785,6 +785,6 @@
 }
 @media (min-width: 320px) {
   .safeLeads:global(.__wab_instance) {
-    display: flex;
+    display: none;
   }
 }
